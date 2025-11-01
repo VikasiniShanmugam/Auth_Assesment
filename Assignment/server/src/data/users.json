@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1761978147474",
+    "email": "vikas@gmail.com",
+    "password": "$2b$10$OGJykKK/QQt8FlI7R3oCEePpyqUPtVyDLs0kjForYzzQldWdozUTm",
+    "role": "User"
+  },
+  {
+    "id": "1761980914742",
+    "email": "vikasb@gmail.com",
+    "password": "$2b$10$REBEA7ltNDkbinCWx0ZyCuPN.UPI9X8LXXcRCpMR9R8P7z/RtPlpa",
+    "role": "Admin"
+  },
+  {
+    "id": "1761982544606",
+    "email": "vikasini@gmail.com",
+    "password": "$2b$10$IQdtcYLNSwLrWLRc53cdWOwQLAQgneVQBXe.1UCLW357k3ExZ/I6m",
+    "role": "Admin"
+  },
+  {
+    "id": "1761982662258",
+    "email": "vikasinis@gmail.com",
+    "password": "$2b$10$2Jf1Sz5jjftVLRxiaK5a6uqmOmtu1/ImvamYAa2VWqt.c8IoCJ3We",
+    "role": "User"
+  }
+]
