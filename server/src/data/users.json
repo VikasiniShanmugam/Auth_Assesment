@@ -40,5 +40,11 @@
     "email": "user@example.com",
     "password": "$2b$10$Zs.tNSIuQZ6SwXZCsAExduB4VIxo41XwBf6gwkw3QDbFHXnD2gqVK",
     "role": "User"
+  },
+  {
+    "id": "1761999106509",
+    "email": "user1@example.com",
+    "password": "$2b$10$W65W4BxUNSB/I8O3KTAgr.8kGLB7MMyPnUmAb/iJ.7de4.nZKrvou",
+    "role": "User"
   }
 ]

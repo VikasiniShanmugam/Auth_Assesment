@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "064c9b4b-6d0c-4181-b13a-8a782221b3da",
+		"name": "assesment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43644637",
+		"_collection_link": "https://www.postman.com/scaiforcasting/workspace/test/collection/43644637-064c9b4b-6d0c-4181-b13a-8a782221b3da?action=share&source=collection_link&creator=43644637"
+	},
+	"item": [
+		{
+			"name": "Register a new user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"user1@example.com\",\r\n  \"password\": \"password@123\",\r\n  \"role\": \"User\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login existing user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE3NjE5OTg2NDEwNjYiLCJlbWFpbCI6InVzZXIxQGV4YW1wbGUuY29tIiwicm9sZSI6IlVzZXIiLCJpYXQiOjE3NjE5OTg2NDEsImV4cCI6MTc2MjAwMjI0MX0.8FWwferIpKkvhTc-UczAV7ZxzKkI4vvBhlrFgWqq-mY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE3NjE5OTg2NDEwNjYiLCJlbWFpbCI6InVzZXIxQGV4YW1wbGUuY29tIiwicm9sZSI6IlVzZXIiLCJpYXQiOjE3NjE5OTg2NDEsImV4cCI6MTc2MjAwMjI0MX0.8FWwferIpKkvhTc-UczAV7ZxzKkI4vvBhlrFgWqq-mY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"user1@example.com\",\r\n  \"password\": \"password@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
