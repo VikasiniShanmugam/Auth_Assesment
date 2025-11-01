@@ -114,9 +114,10 @@ The system supports three roles:
 - Role-based middleware for route protection
 - Protected frontend routes
 
+## Register
 <img width="1106" height="734" alt="Screenshot 2025-11-01 155913" src="https://github.com/user-attachments/assets/dfedf804-e1c0-4b3c-8cb5-649d3eeaaf81" />
 
-## Register with login
+## login Page
 <img width="1865" height="625" alt="Screenshot 2025-11-01 160128" src="https://github.com/user-attachments/assets/e84a5297-fedb-4ce3-bcf5-af0989eee924" />
 
 ## Simple Dashboard 
@@ -128,6 +129,8 @@ The system supports three roles:
 ## User Page
 <img width="1492" height="453" alt="image" src="https://github.com/user-attachments/assets/394e82cf-bfc5-437f-800f-30cccf1fbfc9" />
 
+## Form Validation
+<img width="613" height="653" alt="Screenshot 2025-11-01 160629" src="https://github.com/user-attachments/assets/bc899909-c5ad-4e49-8913-395ec3f7b100" />
 
 
 
