@@ -75,8 +75,8 @@ The client will be available at `http://localhost:5173` and the server at `http:
 Register a new user
 ```json
 {
-  "email": "user@example.com",
-  "password": "password123",
+  "email": "xyz@outlook.com",
+  "password": "password@123",
   "role": "user"
 }
 ```
@@ -85,8 +85,8 @@ Register a new user
 Login existing user
 ```json
 {
-  "email": "user@example.com",
-  "password": "password123"
+  "email": "xyz@outlook.com",
+  "password": "password@123"
 }
 ```
 

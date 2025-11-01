@@ -8,7 +8,6 @@ const app = express();
 app.use(corsMiddleware);
 app.use(express.json());
 
-// Apply rate limiting
 app.use("/api/auth", authLimiter);
 app.use("/api", apiLimiter);
 

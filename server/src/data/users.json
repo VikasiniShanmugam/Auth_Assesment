@@ -22,5 +22,23 @@
     "email": "vikasinis@gmail.com",
     "password": "$2b$10$2Jf1Sz5jjftVLRxiaK5a6uqmOmtu1/ImvamYAa2VWqt.c8IoCJ3We",
     "role": "User"
+  },
+  {
+    "id": "1761992981514",
+    "email": "vikasini_s@gmail.com",
+    "password": "$2b$10$LaQaDJXnkZ7gpGpXLoSdoe/AsxRCgZmjHnj9.WdqUDKgV43RKM4SS",
+    "role": "User"
+  },
+  {
+    "id": "1761993076854",
+    "email": "vikasinii_s@gmail.com",
+    "password": "$2b$10$0kL6YDKSOU/GBHt9p48QyeZUQxU4M2GG8.CqiL0MH9JWf6hyTd.Te",
+    "role": "User"
+  },
+  {
+    "id": "1761997284575",
+    "email": "user@example.com",
+    "password": "$2b$10$Zs.tNSIuQZ6SwXZCsAExduB4VIxo41XwBf6gwkw3QDbFHXnD2gqVK",
+    "role": "User"
   }
 ]
